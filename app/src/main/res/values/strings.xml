@@ -1,3 +1,5 @@
 <resources>
 	<string name="app_name">Spanish Subjunctive Conjugator</string>
+	<string name="txt_input_infinitive_hint">Type in an infinitive</string>
+	<string name="btn_conjugate_text">Conjugate</string>
 </resources>
