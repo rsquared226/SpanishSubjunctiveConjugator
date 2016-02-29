@@ -1,3 +1,12 @@
+# Human changes
+.idea/
+*.iml
+*.gradle
+*gradle*
+*.pro
+ExampleUnitTest.java
+ApplicationTest.java
+
 # Built application files
 *.apk
 *.ap_
