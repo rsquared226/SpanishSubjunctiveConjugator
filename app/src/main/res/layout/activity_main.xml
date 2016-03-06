@@ -16,24 +16,30 @@
 		android:id="@+id/edittxtInputInfinitive"
 		android:layout_alignParentTop="true"
 		android:layout_alignParentLeft="true"
-		android:hint="@string/txt_input_infinitive_hint"/>
+		android:hint="@string/txt_input_infinitive_hint"
+		android:inputType="textNoSuggestions|text"/>
+
+	<Spinner
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinSubject"
+		android:layout_below="@+id/edittxtInputInfinitive"
+		android:layout_centerHorizontal="true"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/btn_conjugate_text"
 		android:id="@+id/btnForm"
-		android:layout_below="@+id/edittxtInputInfinitive"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="20dp"
-		android:onClick="formSubjunctive"/>
+		android:onClick="formSubjunctive"
+		android:layout_below="@+id/spinSubject"
+		android:layout_centerHorizontal="true"/>
 
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:id="@+id/txtviewFormedVerb"
-		android:layout_marginTop="60dp"
 		android:layout_below="@+id/btnForm"
 		android:layout_centerHorizontal="true"/>
 </RelativeLayout>
