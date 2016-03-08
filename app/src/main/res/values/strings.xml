@@ -4,6 +4,9 @@
 	<string name="btn_conjugate_text">Conjugate</string>
 	<string name="not_verb">That is not an infinitive</string>
 	<string name="no_verb_found">Please enter an infinitive</string>
+	<string name="initialize_done">Done initializing!</string>
+	<string name="xml_error">Error reading XML file</string>
+	<string name="subjunctive_error_subject">ERROR: IRREGULAR SUBJUNCTIVE VERB: SUBJECT NOT FOUND</string>
 
 	<string-array name="subject_array">
 		<item>yo</item>

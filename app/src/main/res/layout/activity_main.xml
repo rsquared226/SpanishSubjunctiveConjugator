@@ -24,7 +24,8 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/spinSubject"
 		android:layout_below="@+id/edittxtInputInfinitive"
-		android:layout_centerHorizontal="true"/>
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"/>
 
 	<Button
 		android:layout_width="wrap_content"
@@ -33,7 +34,8 @@
 		android:id="@+id/btnForm"
 		android:onClick="formSubjunctive"
 		android:layout_below="@+id/spinSubject"
-		android:layout_centerHorizontal="true"/>
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="5dp"/>
 
 	<TextView
 		android:layout_width="wrap_content"
@@ -41,5 +43,6 @@
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:id="@+id/txtviewFormedVerb"
 		android:layout_below="@+id/btnForm"
-		android:layout_centerHorizontal="true"/>
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"/>
 </RelativeLayout>
